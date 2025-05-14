@@ -127,3 +127,10 @@ Open a Pull Request
 
 License
 MIT - See LICENSE for more information.
+
+```
+## Npm package avaliable in npmjs
+![image](https://github.com/user-attachments/assets/a079f419-c6d9-4492-907e-26c938655f4f)
+
+## VS extension
+![image](https://github.com/user-attachments/assets/4cc122fa-b819-486a-b942-2acfc1ea4603)
