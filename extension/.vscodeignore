@@ -1,5 +1,4 @@
 node_modules
-echo "node_modules
 .vscode-test
 out/test
 src/**/*.map
@@ -8,4 +7,6 @@ src/**/*.map
 tsconfig.json
 .gitignore
 *.code-workspace
-*.zip" > .vscodeignore
+*.zip
+**/*.test.*
+../package/node_modules

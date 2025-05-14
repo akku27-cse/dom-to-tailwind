@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "ES6",
-    "outDir": "out",
+    "outDir": "dist",
     "lib": [
       "ES6"
     ],
@@ -11,10 +11,12 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "vscode"]
   },
   "exclude": [
     "node_modules",
-    ".vscode-test"
+    "../package/node_modules",
+    "**/*.test.ts"
   ]
 }
