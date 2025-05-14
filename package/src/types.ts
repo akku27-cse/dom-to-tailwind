@@ -5,4 +5,6 @@ export interface ConversionOptions {
   remInPx?: number;
   ignoreClasses?: string[];
   customUtilityMap?: Record<string, string>;
+
 }
+// Removed the module augmentation for 'postcss-js' as it requires a proper type declaration file.
